@@ -1,0 +1,178 @@
+/* 
+Author:MAhato;
+Theme:Food Order Website Admin;
+Version:0;
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+  color: black;
+}
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+.tbl-full {
+  width: 100%;
+}
+table tr th {
+  border-bottom: 1px solid black;
+  padding: 1%;
+  text-align: left;
+}
+table tr td {
+  padding: 1%;
+}
+
+.btn-primary {
+  background-image: linear-gradient(
+    to left,
+    #c57f36,
+    #d3812d,
+    #e18223,
+    #f08315,
+    #ff8300
+  );
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-image: linear-gradient(
+    to left,
+    #e7df53,
+    #ebe247,
+    #efe53a,
+    #f3e828,
+    #f7eb06
+  );
+}
+
+.btn-secondary {
+  background-image: linear-gradient(
+    to left,
+    #57c967,
+    #2d6dc0,
+    #aabfd4,
+    #436683,
+    #4060b8
+  );
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-secondary:hover {
+  background-image: linear-gradient(
+    to right,
+    #b9dcdb,
+    #1ab6a9,
+    #169e8c,
+    #0c64ac,
+    #0060af
+  );
+}
+
+.btn-danger {
+  background-image: linear-gradient(
+    to right,
+    #fd0000,
+    #f80101,
+    #f20202,
+    #ed0202,
+    #e80303
+  );
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-image: linear-gradient(
+    to right,
+    #ff0000,
+    #ff0000,
+    #ff0000,
+    #ff0000,
+    #ff0000
+  );
+}
+
+.success {
+  color: green;
+}
+.error {
+  color: red;
+}
+
+/* CSS FOR MENU */
+.menu {
+  text-align: center;
+  border: 1px solid grey;
+}
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: ff4757;
+}
+.menu ul li a:hover {
+  color: #ff6b81;
+}
+
+/* CSS FOR MAIN CONTENT */
+.main-content {
+  margin: 1% 0;
+  background-image: linear-gradient(
+    to left,
+    #eaeaea,
+    #e4ddf0,
+    #e5cff2,
+    #ebbeef,
+    #f4ace7
+  );
+  padding: 2% 0;
+}
+
+.col-4 {
+  width: 17%;
+  background-color: white;
+  margin: 2%;
+  padding: 2%;
+  float: left;
+}
+
+/* CSS FOR FOOTER */
+.footer {
+  background-color: #ff4757;
+}
