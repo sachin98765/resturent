@@ -6,8 +6,16 @@
     <h1>Manage Category</h1>
     <br><br>
 
+    <?php 
+        if(isset($_SESSION['add'])){
+            echo $_SESSION['add'];
+            unset($_SESSION['add']);
+        }
+        ?>
+        <br><br>
+
        <!---Botton to add admin---->
-       <a href="#" class="btn-primary">Add Category</a>
+       <a href="add-category.php" class="btn-primary">Add Category</a>
 
 <br><br>  
 <table class="tbl-full">
