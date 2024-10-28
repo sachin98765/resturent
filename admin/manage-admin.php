@@ -24,8 +24,6 @@
                             echo $_SESSION['update'];
                             unset($_SESSION['update']);
                         }
-
-                     
                      
                      ?>
                      <br> <br><br>
@@ -34,8 +32,7 @@
             
 
                      <br><br>  
-
-                  
+     
 
                      <table class="tbl-full">
                         <tr>

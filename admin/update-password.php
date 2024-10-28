@@ -12,7 +12,6 @@
             }
         
         ?>
-
         <from action="" method="post">
             <table>
             <tr>
