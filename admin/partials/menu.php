@@ -1,7 +1,11 @@
 
-<?php include('../config/constant.php') ?>
+<?php 
+    include('../config/constant.php') ;
+    include('login-check.php') ;
 
-<?php   include('login-check.php')  ?>
+?>
+
+<?php    ?>
 
 <html>
     <head>
@@ -11,7 +15,7 @@
     <body>
             <!---------- Menu section starts--------->
 
-            <div class="menu text-center">
+            <div class="menu text-center">  
                 <div class="wrapper">
                     <ul>
                         <li><a href="index.php">Home</a></li>
